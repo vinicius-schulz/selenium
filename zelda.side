@@ -1,0 +1,70 @@
+{
+  "id": "a959d664-31d3-43e1-94b1-35c78b960416",
+  "version": "2.0",
+  "name": "zelda",
+  "url": "http://zelda.com.br",
+  "tests": [{
+    "id": "47bb5465-4c28-4938-b002-368f795b8750",
+    "name": "Untitled",
+    "commands": [{
+      "id": "27c14dc3-a30c-45ff-8e9e-1e503ea8918e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8435637f-2966-49bb-a020-4439f6c9599e",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3cd03cb-b727-43b4-8611-f97896e050e7",
+      "comment": "",
+      "command": "click",
+      "target": "name=op",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9875b70d-5087-4cdf-8399-e13098135c92",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7c960ca-bfb6-4cad-a837-fb7f2827fb22",
+      "comment": "",
+      "command": "type",
+      "target": "name=keys",
+      "targets": [],
+      "value": "majoras mask"
+    }, {
+      "id": "e5dde747-7db9-4d70-b842-f4a92aba3861",
+      "comment": "",
+      "command": "click",
+      "target": "name=op",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1e57f32-3d09-4fc2-8a70-96a11a02253b",
+      "comment": "",
+      "command": "assertValue",
+      "target": "xpath=//input[@class='form-submit']",
+      "targets": [],
+      "value": "Buscar"
+    }]
+  }],
+  "suites": [{
+    "id": "ecdbafe3-4a88-448b-98a6-2c83f835e20b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["47bb5465-4c28-4938-b002-368f795b8750"]
+  }],
+  "urls": ["http://zelda.com.br/"],
+  "plugins": []
+}
